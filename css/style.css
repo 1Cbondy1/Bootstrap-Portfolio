@@ -1,0 +1,136 @@
+/* Bootstrap-Portfolio */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: lightgrey;
+    background-size: auto;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ef79a01f0a12450049b7d20cd10f93c&auto=format&fit=crop&w=1267&q=80") center fixed;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.navbar {
+    float: right;
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    float: right;
+    margin-top: 5px;
+    padding-right: 0px;
+    padding-left: 25px;
+    margin: 0px;
+}
+
+#myName {
+    float: left;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    padding: 18px;
+    color: white;
+}
+
+.row {
+    padding: 0px;
+    width: 960px;
+    margin: 0px auto;
+    background: #ffffff;
+}
+
+.col-md-12 {
+    padding: 0px;
+    border: 2px solid #dddddd;
+    overflow: hidden;
+    width:100%;
+    text-align: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-style: bolder;
+    font-size: 24px;
+    overflow: auto;
+}   
+
+#borderLine {
+    margin: 15px 0px 20px 0px;
+    height: 2px;
+    background-color:#dddddd;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+#txtArea {
+    width: 100%;
+    height: 150px;
+    padding: 5px 5px;
+    border: 1px solid #dddddd;
+    color: #777777; 
+    font-size: 12px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+#image1 {
+    position: relative;
+    float: left;
+    text-align: center;
+    color: white;
+    margin: 10px 30px 10px 0px;
+    overflow: auto;
+}
+
+.galleryText {
+    position: absolute;
+    bottom: 20px;
+    line-height: 4;
+    width: 100%;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#footer1 {
+    width: 100%;
+    background: #666666;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    border-top: 6px solid #4aaaa5;
+}
