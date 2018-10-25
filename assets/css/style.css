@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px auto;
     background: lightgrey;
     background-size: auto;
     text-align: center;
@@ -50,7 +51,10 @@ header{
     padding: 18px;
     color: white;
 }
-
+.container {
+    margin: 0px auto;
+    padding: 0px;
+}
 .rowOuter {
     padding: 30px 30px 0px 30px;
     width: 960px;
@@ -62,17 +66,23 @@ header{
 }
 
 .rowInner {
-    margin: 0px;
     line-height: 2;
     color: #777777;
     text-align: justify;
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 25px;
 }
 
 .col-md-12 {
-    padding: 0px;
+    padding: 0px ;
     width:100%;
     text-align: left;
-    margin: 0px;
+}
+
+.col-portfolio {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h2 {
@@ -112,6 +122,7 @@ button {
     text-decoration: none;
     display: inline-block;
     padding: 8px 20px;
+    font-size: 12px;
 }
 
 #image {
@@ -136,6 +147,21 @@ button {
     background: #4aaaa5;
     text-align: center;
     color: white;
+}
+
+form {
+    color: #777777; 
+    padding-bottom: 25px;
+}
+
+.card {
+    float: left;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.card-title {
+    background: blue;
 }
 
 #footer1 {
